@@ -303,7 +303,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="about-image text-center mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="{{asset('images/openpage.png')}}" alt="about">
+                        <img src="{{asset('images/profile.png')}}" alt="about">
                     </div> <!-- about image -->
                 </div>
             </div> <!-- row -->

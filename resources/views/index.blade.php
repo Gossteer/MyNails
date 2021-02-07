@@ -75,7 +75,7 @@
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand">
-                                <img  style="width: 300px;" src="{{asset('images/logo.png')}}" alt="Logo">
+                                <img style="width: 300px;" src="{{asset('images/logo.png')}}" alt="Logo">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>
@@ -117,7 +117,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="header-hero-image text-center wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.4s">
-                            <img src="{{asset('images/main.png')}}" alt="hero">
+                            <img class="about-image" src="{{asset('images/main.png')}}" alt="hero">
                         </div> <!-- header hero image -->
                     </div>
                 </div> <!-- row -->

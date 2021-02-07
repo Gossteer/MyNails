@@ -5,7 +5,7 @@
     <meta charset="utf-8">
 
     <!--====== Title ======-->
-    <title>Basic - SaaS Landing Page</title>
+    <title>My Nails</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -74,8 +74,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="{{asset('images/logo.svg')}}" alt="Logo">
+                            <a class="navbar-brand">
+                                <img  style="width: 300px;" src="{{asset('images/logo.png')}}" alt="Logo">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>
@@ -83,7 +83,7 @@
                                 <span class="toggler-icon"></span>
                             </button>
 
-                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                            {{-- <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" class="navbar-nav ml-auto">
                                     <li class="nav-item active">
                                         <a class="page-scroll" href="#home">Home</a>
@@ -104,11 +104,8 @@
                                         <a class="page-scroll" href="#blog">Blog</a>
                                     </li>
                                 </ul>
-                            </div> <!-- navbar collapse -->
+                            </div> <!-- navbar collapse --> --}}
 
-                            <div class="navbar-btn d-none d-sm-inline-block">
-                                <a class="main-btn" data-scroll-nav="0" href="#pricing">Free Trial</a>
-                            </div>
                         </nav> <!-- navbar -->
                     </div>
                 </div> <!-- row -->
@@ -117,6 +114,13 @@
 
         <div id="home" class="header-hero bg_cover" style="background-image: url({{asset('images/banner-bg.svg')}})">
             <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="header-hero-image text-center wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.4s">
+                            <img src="{{asset('images/main.png')}}" alt="hero">
+                        </div> <!-- header hero image -->
+                    </div>
+                </div> <!-- row -->
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="header-hero-content text-center">
@@ -125,13 +129,6 @@
                             <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
                             <a href="#" class="main-btn wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">Get Started</a>
                         </div> <!-- header hero content -->
-                    </div>
-                </div> <!-- row -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="header-hero-image text-center wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.4s">
-                            <img src="{{asset('images/header-hero.png')}}" alt="hero">
-                        </div> <!-- header hero image -->
                     </div>
                 </div> <!-- row -->
             </div> <!-- container -->
@@ -143,7 +140,7 @@
 
     <!--====== BRAMD PART START ======-->
 
-    <div class="brand-area pt-90">
+    {{-- <div class="brand-area pt-90">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -167,7 +164,7 @@
                 </div>
             </div>   <!-- row -->
         </div> <!-- container -->
-    </div>
+    </div> --}}
 
     <!--====== BRAMD PART ENDS ======-->
 
@@ -249,7 +246,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="about-image text-center mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="{{asset('images/about1.svg')}}" alt="about">
+                        <img src="{{asset('images/sign_up.png')}}" alt="about">
                     </div> <!-- about image -->
                 </div>
             </div> <!-- row -->
@@ -281,7 +278,7 @@
                 </div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="about-image text-center mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="{{asset('images/about2.svg')}}" alt="about">
+                        <img src="{{asset('images/map.png')}}" alt="about">
                     </div> <!-- about image -->
                 </div>
             </div> <!-- row -->
@@ -306,7 +303,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="about-image text-center mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="{{asset('images/about3.svg')}}" alt="about">
+                        <img src="{{asset('images/openpage.png')}}" alt="about">
                     </div> <!-- about image -->
                 </div>
             </div> <!-- row -->
@@ -382,79 +379,6 @@
 
     <!--====== VIDEO COUNTER PART ENDS ======-->
 
-    <!--====== TEAM PART START ======-->
-
-    <section id="team" class="team-area pt-120">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-5">
-                    <div class="section-title text-center pb-30">
-                        <div class="line m-auto"></div>
-                        <h3 class="title"><span>Meet Our</span> Creative Team Members</h3>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-7 col-sm-8">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <div class="team-image">
-                            <img src="{{asset('images/team-1.png')}}" alt="Team">
-                            <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">Isabela Moreira</a></h5>
-                            <p class="text">Founder and CEO</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
-                <div class="col-lg-4 col-md-7 col-sm-8">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <div class="team-image">
-                            <img src="{{asset('images/team-2.png')}}" alt="Team">
-                            <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">Elon Musk</a></h5>
-                            <p class="text">Sr. Software Engineer</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
-                <div class="col-lg-4 col-md-7 col-sm-8">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="team-image">
-                            <img src="{{asset('images/team-3.png')}}" alt="Team">
-                            <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">Fiona Smith</a></h5>
-                            <p class="text">Business Development Manager</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
 
     <!--====== TEAM PART ENDS ======-->
 
@@ -603,7 +527,7 @@
 
     <!--====== BLOG PART START ======-->
 
-    <section id="blog" class="blog-area pt-120">
+    {{-- <section id="blog" class="blog-area pt-120">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -661,7 +585,7 @@
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
-    </section>
+    </section> --}}
 
     <!--====== BLOG PART ENDS ======-->
 
@@ -669,7 +593,7 @@
 
     <footer id="footer" class="footer-area pt-120">
         <div class="container">
-            <div class="subscribe-area wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+            {{-- <div class="subscribe-area wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="subscribe-content mt-45">
@@ -685,26 +609,26 @@
                         </div>
                     </div>
                  </div> <!-- row -->
-            </div> <!-- subscribe area -->
+            </div> <!-- subscribe area --> --}}
             <div class="footer-widget pb-100">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-8">
                         <div class="footer-about mt-50 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <a class="logo" href="#">
-                                <img src="{{asset('images/logo.svg')}}" alt="logo">
+                                <img src="{{asset('images/logo.png')}}" alt="logo">
                             </a>
                             <p class="text">Lorem ipsum dolor sit amet consetetur sadipscing elitr, sederfs diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
                             <ul class="social">
-                                <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                                <li><a href="https://www.instagram.com/mynails.app/"><i class="lni-instagram-filled"></i></a></li>
+                                {{-- <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
                                 <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
+                                <li><a href="#"><i class="lni-linkedin-original"></i></a></li> --}}
                             </ul>
                         </div> <!-- footer about -->
                     </div>
                     <div class="col-lg-5 col-md-7 col-sm-7">
                         <div class="footer-link d-flex mt-50 justify-content-md-between">
-                            <div class="link-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                            {{-- <div class="link-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                                 <div class="footer-title">
                                     <h4 class="title">Quick Link</h4>
                                 </div>
@@ -715,19 +639,19 @@
                                     <li><a href="#">Terms of Service</a></li>
                                     <li><a href="#">Pricing</a></li>
                                 </ul>
-                            </div> <!-- footer wrapper -->
-                            <div class="link-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
+                            </div> <!-- footer wrapper --> --}}
+                            {{-- <div class="link-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
                                 <div class="footer-title">
                                     <h4 class="title">Resources</h4>
                                 </div>
                                 <ul class="link">
-                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Приложение</a></li>
                                     <li><a href="#">Page</a></li>
                                     <li><a href="#">Portfolio</a></li>
                                     <li><a href="#">Blog</a></li>
                                     <li><a href="#">Contact</a></li>
                                 </ul>
-                            </div> <!-- footer wrapper -->
+                            </div> <!-- footer wrapper --> --}}
                         </div> <!-- footer link -->
                     </div>
                     <div class="col-lg-3 col-md-5 col-sm-5">
@@ -750,7 +674,7 @@
                     <div class="col-lg-12">
                         <div class="copyright d-sm-flex justify-content-between">
                             <div class="copyright-content">
-                                <p class="text">Designed and Developed by <a href="https://uideck.com" rel="nofollow">UIdeck</a></p>
+                                <p class="text">Придумано и разработано <a href="https://t.me/gossteer" rel="nofollow">Игнатьевым Антоном</a> и <a href="https://t.me/intrart" rel="nofollow">Бокаревым Стефаном</a></p>
                             </div> <!-- copyright content -->
                         </div> <!-- copyright -->
                     </div>

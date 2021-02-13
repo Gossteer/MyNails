@@ -779,9 +779,10 @@ p {
   padding-top: 110px; }
   @media (max-width: 767px) {
     .header-hero-image {
-      padding-top: 65px; } }
+      padding-top: 95px; } }
   .header-hero-content .header-sub-title {
     font-size: 38px;
+    padding-top: 35px;
     font-weight: 300;
 }
     @media (max-width: 767px) {
@@ -807,7 +808,7 @@ p {
     margin-top: 40px; }
 
   .header-hero-image img {
-    max-width: 650px; }
+    max-width: 600px; }
     @media (max-width: 767px) {
       .header-hero-image img {
         max-width: 100%; } }
@@ -865,6 +866,7 @@ p {
     .single-services {
       padding: 20px 20px 30px; } }
   .single-services .services-icon {
+    max-width: 35%;
     display: inline-block;
     position: relative; }
     .single-services .services-icon img {

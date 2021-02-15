@@ -213,7 +213,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-8">
                     <div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
                         <div class="services-icon">
-                            <img class="shape" src="{{asset('images/like.svg')}}" alt="shape">
+                            <img class="shape" src="{{asset('images/icon_favourites.svg')}}" alt="shape">
                             {{-- <img class="shape-1" src="{{asset('images/services-shape-3.svg')}}" alt="shape">
                             <i class="lni-bolt-alt"></i> --}}
                         </div>
@@ -426,7 +426,7 @@
                 <div class="col-lg-5">
                     <div class="section-title text-center pb-40">
                         <div class="line m-auto"></div>
-                        <h3 class="title">Пользовательский опыт. <br><span> О нас говорят</span></h3>
+                        <h3 class="title">Пользовательский опыт <br><span> О нас говорят</span></h3>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
@@ -457,7 +457,7 @@
                             </div>
                             <div class="author-content media-body">
                                 <h6 class="holder-name">Анна</h6>
-                                <p class="text">HelpDesk, INOVA</p>
+                                
                             </div>
                         </div>
                     </div> <!-- single testimonial -->
@@ -479,7 +479,7 @@
                             </div>
                         </div>
                         <div class="testimonial-text">
-                            <p class="text">Несмотря на то, что это относительно их первый проект, выглядит он весьма неплохо. Видно, что была вложено много стараний и сил.</p>
+                            <p class="text">Мне кажется, это одно из лучших приложений чтобы подобрать понравившийся дизайн маникюра.</p>
                         </div>
                         <div class="testimonial-author d-flex align-items-center">
                             <div class="author-image">
@@ -488,7 +488,7 @@
                             </div>
                             <div class="author-content media-body">
                                 <h6 class="holder-name">Мария</h6>
-                                <p class="text">UX/UI, Коровка</p>
+                             
                             </div>
                         </div>
                     </div> <!-- single testimonial -->
@@ -510,7 +510,7 @@
                             </div>
                         </div>
                         <div class="testimonial-text">
-                            <p class="text">Ногти я себе не делаю, но это приложение позволило не пропускать через себя кучу отвратительных предложений на других ресурсах, а сразу выбрать необходимый, договориться с мастером и отправить туда свою девушку)</p>
+                            <p class="text">Ногти я себе не делаю, но это приложение позволило не пропускать через себя кучу предложений на других ресурсах, а сразу выбрать необходимый, договориться с мастером и отправить туда свою девушку)</p>
                         </div>
                         <div class="testimonial-author d-flex align-items-center">
                             <div class="author-image">
@@ -519,7 +519,7 @@
                             </div>
                             <div class="author-content media-body">
                                 <h6 class="holder-name">Иван</h6>
-                                <p class="text">БР, Открытие</p>
+                                
                             </div>
                         </div>
                     </div> <!-- single testimonial -->
@@ -550,7 +550,7 @@
                             </div>
                             <div class="author-content media-body">
                                 <h6 class="holder-name">Ксения</h6>
-                                <p class="text">АТ, Малый театр</p>
+                                
                             </div>
                         </div>
                     </div> <!-- single testimonial -->

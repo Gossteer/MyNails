@@ -4,48 +4,49 @@
 <head>
     <meta charset="utf-8">
 
-    <!--====== Title ======-->
     <title>My Nails</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="{{asset('images/favicon.png')}}" type="image/png">
 
-    <!--====== Animate CSS ======-->
     <link rel="stylesheet" href="{{asset('css/animate.css')}}">
 
-    <!--====== Magnific Popup CSS ======-->
     <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
 
-    <!--====== Slick CSS ======-->
     <link rel="stylesheet" href="{{asset('css/slick.css')}}">
 
-    <!--====== Line Icons CSS ======-->
     <link rel="stylesheet" href="{{asset('css/LineIcons.css')}}">
 
-    <!--====== Font Awesome CSS ======-->
     <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
 
-    <!--====== Bootstrap CSS ======-->
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
 
-    <!--====== Default CSS ======-->
     <link rel="stylesheet" href="{{asset('css/default.css')}}">
 
-    <!--====== Style CSS ======-->
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
+
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(72507460, "init", {
+             clickmap:true,
+             trackLinks:true,
+             accurateTrackBounce:true,
+             webvisor:true
+        });
+     </script>
+     <noscript><div><img src="https://mc.yandex.ru/watch/72507460" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 
 </head>
 
 <body>
-    <!--[if IE]>
+    {{-- <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-
-    <!--====== PRELOADER PART START ======-->
+  <![endif]--> --}}
 
     <div class="preloader">
         <div class="loader">
@@ -63,10 +64,6 @@
             </div>
         </div>
     </div>
-
-    <!--====== PRELOADER PART ENDS ======-->
-
-    <!--====== HEADER PART START ======-->
 
     <header class="header-area">
         <div class="navbar-area">
@@ -106,11 +103,11 @@
                                 </ul>
                             </div> <!-- navbar collapse --> --}}
 
-                        </nav> <!-- navbar -->
+                        </nav>
                     </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
-        </div> <!-- navbar area -->
+                </div>
+            </div>
+        </div>
 
         <div id="home" class="header-hero bg_cover" style="background-image: url({{asset('images/banner-bg.svg')}})">
             <div class="container">
@@ -118,9 +115,9 @@
                     <div class="col-lg-12">
                         <div class="header-hero-image text-center wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.4s">
                             <img class="about-image" src="{{asset('images/main.png')}}" alt="hero">
-                        </div> <!-- header hero image -->
+                        </div>
                     </div>
-                </div> <!-- row -->
+                </div>
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="header-hero-content text-center">
@@ -128,17 +125,13 @@
                             <h3 class="header-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">Новый взгляд на мир красоты</h3>
                             {{-- <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
                             <a href="#" class="main-btn wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">Get Started</a> --}}
-                        </div> <!-- header hero content -->
+                        </div>
                     </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
+                </div>
+            </div>
             <div id="particles-1" class="particles"></div>
-        </div> <!-- header hero -->
+        </div>
     </header>
-
-    <!--====== HEADER PART ENDS ======-->
-
-    <!--====== BRAMD PART START ======-->
 
     {{-- <div class="brand-area pt-90">
         <div class="container">
@@ -166,10 +159,6 @@
         </div> <!-- container -->
     </div> --}}
 
-    <!--====== BRAMD PART ENDS ======-->
-
-    <!--====== SERVICES PART START ======-->
-
     <section id="features" class="services-area pt-120">
         <div class="container">
             <div class="row justify-content-center">
@@ -178,9 +167,9 @@
                         <div class="line m-auto"></div>
                         <h3 class="title">Все мастера в одном приложении</h3>
                         {{-- <h3 class="title">Clean and simple design, <span> Comes with everything you need to get started!</span></h3> --}}
-                    </div> <!-- section title -->
+                    </div>
                 </div>
-            </div> <!-- row -->
+            </div>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-7 col-sm-8">
                     <div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
@@ -194,7 +183,7 @@
                             <p class="text">Поиск ближайших мастеров рядом с вами </p>
                             <a class="more" href="#">Узнать больше <i class="lni-chevron-right"></i></a>
                         </div>
-                    </div> <!-- single services -->
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-7 col-sm-8">
                     <div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -208,7 +197,7 @@
                             <p class="text">Возможность проложить маршрут к мастеру </p>
                             <a class="more" href="#">Узнать больше<i class="lni-chevron-right"></i></a>
                         </div>
-                    </div> <!-- single services -->
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-7 col-sm-8">
                     <div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
@@ -222,15 +211,11 @@
                             <p class="text">Удобный поиск и сохранение понравившихся дизайнов маникюра </p>
                             <a class="more" href="#">Узнать больше <i class="lni-chevron-right"></i></a>
                         </div>
-                    </div> <!-- single services -->
+                    </div>
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+            </div>
+        </div>
     </section>
-
-    <!--====== SERVICES PART ENDS ======-->
-
-    <!--====== ABOUT PART START ======-->
 
     <section id="about" class="about-area pt-70">
         <div class="container">
@@ -240,26 +225,22 @@
                         <div class="section-title">
                             <div class="line"></div>
                             <h3 class="title">Лента дизайнов</h3>
-                        </div> <!-- section title -->
+                        </div>
                         <p class="text">Удобный поиск и сохранение понравившихся дизайнов маникюра</p>
                         {{-- <a href="#" class="main-btn">Try it Free</a> --}}
-                    </div> <!-- about content -->
+                    </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="about-image text-center mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
                         <img src="{{asset('images/main_page_2.png')}}" alt="about">
-                    </div> <!-- about image -->
+                    </div>
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+            </div>
+        </div>
         <div class="about-shape-1">
             <img src="{{asset('images/about-shape-1.svg')}}" alt="shape">
         </div>
     </section>
-
-    <!--====== ABOUT PART ENDS ======-->
-
-    <!--====== ABOUT PART START ======-->
 
     <section class="about-area pt-70">
         <div class="about-shape-2">
@@ -272,7 +253,7 @@
                         <div class="section-title">
                             <div class="line"></div>
                             <h3 class="title">Интеграция с INSTAGRAM</h3>
-                        </div> <!-- section title -->
+                        </div>
                         <p class="text">
                             <strong>Возможность перейти в instagram профиль</strong>
                             <br>
@@ -283,19 +264,16 @@
                             Мы всегда следим за актуальностью партфолио мастеров и показываем последние новинки
                         </p>
                         {{-- <a href="#" class="main-btn">Try it Free</a> --}}
-                    </div> <!-- about content -->
+                    </div>
                 </div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="about-image text-center mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
                         <img src="{{asset('images/post_rect.png')}}" alt="about">
-                    </div> <!-- about image -->
+                    </div>
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+            </div>
+        </div>
     </section>
-
-
-    <!--====== ABOUT PART START ======-->
 
     <section class="about-area pt-70">
         <div class="container">
@@ -306,9 +284,9 @@
                             <div class="section-title">
                                 <div class="line"></div>
                                 <h3 class="title">Мы<span> в цифрах</span></h3>
-                            </div> <!-- section title -->
+                            </div>
                             <p class="text">Наше предложение не стоит на месте. <strong>My Nails</strong> растёт и развивается.</p>
-                        </div> <!-- counter content -->
+                        </div>
                         <div class="row no-gutters">
                             <div class="col-4">
                                 <div class="single-counter counter-color-1 d-flex align-items-center justify-content-center">
@@ -316,7 +294,7 @@
                                         <span class="count"><span class="counter">500</span></span>
                                         <p class="text">Дизайнов</p>
                                     </div>
-                                </div> <!-- single counter -->
+                                </div>
                             </div>
                             <div class="col-4">
                                 <div class="single-counter counter-color-2 d-flex align-items-center justify-content-center">
@@ -324,7 +302,7 @@
                                         <span class="count"><span class="counter">100</span></span>
                                         <p class="text">Действующих мастеров</p>
                                     </div>
-                                </div> <!-- single counter -->
+                                </div>
                             </div>
                             <div class="col-4">
                                 <div class="single-counter counter-color-3 d-flex align-items-center justify-content-center">
@@ -332,29 +310,22 @@
                                         <span class="count">+<span class="counter">20</span></span>
                                         <p class="text">Точек ежедневно</p>
                                     </div>
-                                </div> <!-- single counter -->
+                                </div>
                             </div>
-                        </div> <!-- row -->
-                    </div> <!-- counter wrapper -->
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="about-image text-center mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
                         <img src="{{asset('images/profile_2.png')}}" alt="about">
-                    </div> <!-- about image -->
+                    </div>
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+            </div>
+        </div>
         <div class="about-shape-1">
             <img src="{{asset('images/about-shape-1.svg')}}" alt="shape">
         </div>
     </section>
-
-    <!--====== ABOUT PART ENDS ======-->
-
-
-    <!--====== ABOUT PART ENDS ======-->
-
-    <!--====== VIDEO COUNTER PART START ======-->
 
     {{-- <section id="facts" class="video-counter pt-70">
         <div class="container">
@@ -413,13 +384,6 @@
         </div> <!-- container -->
     </section> --}}
 
-    <!--====== VIDEO COUNTER PART ENDS ======-->
-
-
-    <!--====== TEAM PART ENDS ======-->
-
-    <!--====== TESTIMONIAL PART START ======-->
-
     <section id="testimonial" class="testimonial-area pt-120">
         <div class="container">
             <div class="row justify-content-center">
@@ -427,9 +391,9 @@
                     <div class="section-title text-center pb-40">
                         <div class="line m-auto"></div>
                         <h3 class="title">Пользовательский опыт <br><span> О нас говорят</span></h3>
-                    </div> <!-- section title -->
+                    </div>
                 </div>
-            </div> <!-- row -->
+            </div>
             <div class="row testimonial-active wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.8s">
                 <div class="col-lg-4">
                     <div class="single-testimonial">
@@ -457,10 +421,10 @@
                             </div>
                             <div class="author-content media-body">
                                 <h6 class="holder-name">Анна</h6>
-                                
+
                             </div>
                         </div>
-                    </div> <!-- single testimonial -->
+                    </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="single-testimonial">
@@ -488,10 +452,10 @@
                             </div>
                             <div class="author-content media-body">
                                 <h6 class="holder-name">Мария</h6>
-                             
+
                             </div>
                         </div>
-                    </div> <!-- single testimonial -->
+                    </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="single-testimonial">
@@ -519,10 +483,10 @@
                             </div>
                             <div class="author-content media-body">
                                 <h6 class="holder-name">Иван</h6>
-                                
+
                             </div>
                         </div>
-                    </div> <!-- single testimonial -->
+                    </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="single-testimonial">
@@ -550,18 +514,14 @@
                             </div>
                             <div class="author-content media-body">
                                 <h6 class="holder-name">Ксения</h6>
-                                
+
                             </div>
                         </div>
-                    </div> <!-- single testimonial -->
+                    </div>
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+            </div>
+        </div>
     </section>
-
-    <!--====== TESTIMONIAL PART ENDS ======-->
-
-    <!--====== BLOG PART START ======-->
 
     {{-- <section id="blog" class="blog-area pt-120">
         <div class="container">
@@ -623,10 +583,6 @@
         </div> <!-- container -->
     </section> --}}
 
-    <!--====== BLOG PART ENDS ======-->
-
-    <!--====== FOOTER PART START ======-->
-
     <footer id="footer" class="footer-area pt-120">
         <div class="container">
             {{-- <div class="subscribe-area wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -660,7 +616,7 @@
                                 <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
                                 <li><a href="#"><i class="lni-linkedin-original"></i></a></li> --}}
                             </ul>
-                        </div> <!-- footer about -->
+                        </div>
                     </div>
                     {{-- <div class="col-lg-5 col-md-7 col-sm-7">
                         <div class="footer-link d-flex mt-50 justify-content-md-between">
@@ -701,36 +657,28 @@
                                 <li>www.yourweb.com</li>
                                 <li>123 Stree New York City , United <br> States Of America 750.</li> --}}
                             </ul>
-                        </div> <!-- footer contact -->
+                        </div>
                     </div>
-                </div> <!-- row -->
-            </div> <!-- footer widget -->
+                </div>
+            </div>
             <div class="footer-copyright">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright d-sm-flex justify-content-between">
                             <div class="copyright-content">
                                 {{-- <p class="text">Придумано и разработано <a href="https://t.me/gossteer" rel="nofollow">Игнатьевым Антоном</a> и <a href="https://t.me/intrart" rel="nofollow">Бокаревым Стефаном</a></p> --}}
-                            </div> <!-- copyright content -->
-                        </div> <!-- copyright -->
+                            </div>
+                        </div>
                     </div>
-                </div> <!-- row -->
-            </div> <!-- footer copyright -->
-        </div> <!-- container -->
+                </div>
+            </div>
+        </div>
         <div id="particles-2"></div>
     </footer>
 
-    <!--====== FOOTER PART ENDS ======-->
-
-    <!--====== BACK TOP TOP PART START ======-->
-
     <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
 
-    <!--====== BACK TOP TOP PART ENDS ======-->
-
-    <!--====== PART START ======-->
-
-<!--
+{{-- <!--
     <section class="">
         <div class="container">
             <div class="row">
@@ -738,48 +686,32 @@
             </div>
         </div>
     </section>
--->
+--> --}}
 
-    <!--====== PART ENDS ======-->
-
-
-
-
-    <!--====== Jquery js ======-->
     <script src="{{asset('js/vendor/jquery-1.12.4.min.js')}}" defer></script>
     <script src="{{asset('js/vendor/modernizr-3.7.1.min.js')}}" defer></script>
 
-    <!--====== Bootstrap js ======-->
     <script src="{{asset('js/popper.min.js')}}" defer></script>
     <script src="{{asset('js/bootstrap.min.js')}}" defer></script>
 
-    <!--====== Plugins js ======-->
     <script src="{{asset('js/plugins.js')}}" defer></script>
 
-    <!--====== Slick js ======-->
     <script src="{{asset('js/slick.min.js')}}" defer></script>
 
-    <!--====== Ajax Contact js ======-->
     <script src="{{asset('js/ajax-contact.js')}}" defer></script>
 
-    <!--====== Counter Up js ======-->
     <script src="{{asset('js/waypoints.min.js')}}" defer></script>
     <script src="{{asset('js/jquery.counterup.min.js')}}" defer></script>
 
-    <!--====== Magnific Popup js ======-->
     <script src="{{asset('js/jquery.magnific-popup.min.js')}}" defer></script>
 
-    <!--====== Scrolling Nav js ======-->
     <script src="{{asset('js/jquery.easing.min.js')}}" defer></script>
     <script src="{{asset('js/scrolling-nav.js')}}" defer></script>
 
-    <!--====== wow js ======-->
     <script src="{{asset('js/wow.min.js')}}" defer></script>
 
-    <!--====== Particles js ======-->
     <script src="{{asset('js/particles.min.js')}}" defer></script>
 
-    <!--====== Main js ======-->
     <script src="{{asset('js/main.js')}}" defer></script>
 
 </body>

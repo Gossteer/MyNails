@@ -656,8 +656,8 @@
                                 <h4 class="title">Контакты</h4>
                             </div>
                             <ul class="contact">
-                                <li>Почта: <a style="color: #fff" href="mailto:mynailsapp@gmail.com">mynailsapp@gmail.com</a></li>
-                                <li>Instagram: <a style="color: #fff" href="https://www.instagram.com/mynails.app/">mynails.app</a></li>
+                                <li>Почта: <a style="color: #fff" target="_blank" href="mailto:mynailsapp@gmail.com">mynailsapp@gmail.com</a></li>
+                                <li>Instagram: <a style="color: #fff" target="_blank" href="https://www.instagram.com/mynails.app/">mynails.app</a></li>
                                 {{-- <li>+809272561823</li>
                                 <li>www.yourweb.com</li>
                                 <li>123 Stree New York City , United <br> States Of America 750.</li> --}}

@@ -669,7 +669,7 @@
                     <div class="col-lg-5 col-md-7 col-sm-7">
                         <div class="footer-contact mt-80 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
                             <div class="footer-title">
-                                <h4 class="title">Контакты</h4>
+                                <h4 class="title">Google Play</h4>
                             </div>
                             <a href="https://play.google.com/store/apps/details?id=com.intrart.mynails"><img class="mt-3" src="{{asset('images/qrcodegoogle.png')}}" width="35%" height="35%" alt="googleplay"></a>
                         </div>

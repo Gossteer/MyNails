@@ -615,11 +615,13 @@
                             </a>
                             {{-- <p class="text">Lorem ipsum dolor sit amet consetetur sadipscing elitr, sederfs diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p> --}}
                             <ul class="social">
-                                <li><a href="https://www.instagram.com/mynails.app/"><i class="lni-instagram-filled"></i></a></li>
+                                <li><a href="https://www.instagram.com/mynails.app/" target="_blank"><i class="lni-instagram-filled"></i></a></li>
+                                <li><a href="https://play.google.com/store/apps/details?id=com.intrart.mynails" target="_blank"><i class="lni-google"></i></a></li>
                                 {{-- <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
                                 <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
                                 <li><a href="#"><i class="lni-linkedin-original"></i></a></li> --}}
                             </ul>
+
                         </div>
                     </div>
                     {{-- <div class="col-lg-5 col-md-7 col-sm-7">
@@ -662,6 +664,14 @@
                                 <li>www.yourweb.com</li>
                                 <li>123 Stree New York City , United <br> States Of America 750.</li> --}}
                             </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-7 col-sm-7">
+                        <div class="footer-contact mt-80 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
+                            <div class="footer-title">
+                                <h4 class="title">Контакты</h4>
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.intrart.mynails"><img class="mt-3" src="{{asset('images/qrcodegoogle.png')}}" width="35%" height="35%" alt="googleplay"></a>
                         </div>
                     </div>
                 </div>

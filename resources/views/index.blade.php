@@ -6,7 +6,8 @@
 
     <title>My Nails</title>
 
-    <meta name="description" content="">
+    <meta name="description" content="Найдите именно свой дизайн маникюра!">
+    <meta name="keywords" content="ногти Москва, готи, маникюр Москва, маникюр, дизайн ногтей, дизайн маникюра">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" href="{{asset('images/favicon.png')}}" type="image/png">

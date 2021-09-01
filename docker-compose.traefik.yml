@@ -1,0 +1,43 @@
+version: '3.9'
+
+services:
+    # NGINX container
+    mynails:
+        container_name: ${APP_NAME}
+        build:
+            context: .docker/prod/nginx
+            dockerfile: Dockerfile
+        restart: 'unless-stopped'
+        volumes:
+            - .:/var/www/${APP_NAME}
+            - .docker/prod/nginx/logs:/var/log/nginx
+        links:
+            - php
+        labels:
+            - "traefik.enable=true"
+            - "traefik.http.routers.${APP_NAME}.rule=Host(`${DOMAIN}`)"
+            - "traefik.http.routers.${APP_NAME}.entrypoints=websecure"
+            - "traefik.http.routers.${APP_NAME}.tls.certresolver=myresolver"
+            - "traefik.http.routers.${APP_NAME}.tls.domains[0].main=${DOMAIN}"
+            - "traefik.http.routers.${APP_NAME}.tls.domains[0].sans=www.${DOMAIN}"   
+
+    # PHP FastCGI Process Manager container
+    php:
+        container_name: ${APP_NAME}-php
+        build:
+            context: .
+            dockerfile: .docker/prod/php/Dockerfile
+            args:
+                - APP_ENV=${APP_ENV}
+                - APP_NAME=${APP_NAME}
+        restart: always
+        volumes:
+            - .:/var/www/${APP_NAME}
+            - .docker/prod/php/php.ini:/usr/etc/php/php.ini
+        labels:
+            - traefik.enable=false
+
+networks:
+  default:
+    external: 
+      name: traefik
